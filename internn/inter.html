@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Web Designing Internship</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+    .header {
+      height: 7vh;
+      background-color: rgb(3, 3, 77);
+      text-align: center;
+    }
+
+    .header h3 {
+      margin: auto auto;
+      height: 100%;
+      display: inline;
+      color: white;
+      margin: 0;
+
+      vertical-align: middle;
+    }
+
+    .cont1 {
+      margin-top: 25px;
+      display: flex;
+    }
+
+    .navbar .navbar-top>ul>li {
+      cursor: pointer;
+      color: black;
+      position: relative;
+      top: -5px;
+      margin-left: 10px;
+    }
+
+    @media(max-width:1000px) {
+      .cont1 {
+        display: block;
+      }
+
+      .dropdown {
+        margin: 0;
+        padding: 0;
+
+      }
+
+      .dropdown p {
+        display: block;
+      }
+
+      .dropdown button {
+        display: block;
+      }
+      .header h3{
+        font-size: 10px ;
+      }
+      img{
+        width: 100%;
+      }
+      .cont1 h2{
+        text-align: left;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h3>Try the new MProfit for web & mobile</h3><button style="margin-left: 20px" type="button" class="btn btn-primary">Sign Up</button>
+  </div>
+  <div class="container cont1">
+    <!-- <h2><b></b>MProfit</b></h2> -->
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg col-md-8" style="color: black;">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="color: black;" href="#"><h2>MProfit</h2></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Import</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="cont2" col-md-4>
+      <!-- Drop Down -->
+      <div class="dropdown"
+        style="display:flex;position: absolute;justify-content: end;text-align: right; cursor: pointer;">
+        <p style="margin-right: 20px; margin-top: 10px;">Contact us&#11163;</p>
+        <p style="margin-top: 10px">Login&#11163;</p>
+        <button style="margin-left: 20px" type="button" class="btn btn-primary">Buy/ReNew</button>
+      </div>
+    </div>
+  </div>
+  <div class="row container" style="margin-top: 50px; margin:50px auto; width: 100%; padding-top: 50px;">
+    <div class="col-md-6"><img style = "width: 100%;padding: 10px;"src="graphic (1).png" alt="Manage Your Investments With MProfit."></div>
+    <div class="col-md-6" style="padding-left: 20px; text-align: left;"><h2 style="text-align: left">Manage Your Investment The Right Way</h2>
+    <p style="text-align: left">With MProfit, you can seamlessly track all your investments in one place. Import your data to MProfit from 700+ brokers &#38; financial institutions, view insightful portfolio reports and get your capital gains in ITR format.</p>
+    <button type="button" style="text-align:left;" class="btn btn-primary">Try now for free</button></div>
+  </div>
+  <div class="cont container" style="display:flex;justify-content: end;">
+  <button style="text-align:right; border-radius: 16px 4px 16px 16px" type="button" class="btn btn-primary">&#9072; Contact Us</button>
+</div>
+
+
+
+
+  <script src="jQuery/jquery-3.6.0.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
